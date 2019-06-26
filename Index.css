@@ -1,0 +1,53 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.form{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.game{
+    flex: 0 0 30%;
+    height: 100%;
+    text-align: center;
+}
+
+.wrapper::after{
+    content: '';
+    display: block;
+    flex: 0 0 30%;
+}
+
+.game div{
+    height: 70%;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+#register{
+    flex: 1;
+    text-align: center; 
+}
+
+#login{
+    flex: 1;
+    text-align: center; 
+}
